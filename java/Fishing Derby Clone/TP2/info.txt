@@ -1,0 +1,7 @@
+Fishing Derby Informações e Funções Extras: (Pensar se fazer ou não, retirar da lista coisas feitas)
+
+    Se o player tentar pescar o tubarão, 1% de chance de o tubarão puxar o player e ele perder;
+
+    Corrigir barco por cima da agua;
+    
+    Peixe surpreso antes de fugir do anzol (Caio);
