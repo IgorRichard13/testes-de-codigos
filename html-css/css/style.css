@@ -1,0 +1,83 @@
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+    * {
+        font-family: 'Montserrat', sans-serif;
+        overflow-x: hidden;
+        margin: 5px;
+    }
+    
+     :root {
+        --largura-da-div: 50vw;
+    }
+    
+    #cover {
+        background-image: url("../assets/image2.jpg");
+        width: 10%;
+        height: auto;
+        filter: contrast(1.1) saturate(1.9) sepia(0.7) grayscale(0.3);
+        border-radius: 20px;
+        z-index: 1;
+    }
+    
+    .nav-font {
+        padding: 10px;
+        font-size: 30px;
+    }
+    
+    .FooterBar {
+        background-color: #F5F5F5;
+        padding-left: 10px;
+        padding-right: 5px;
+    }
+    
+     ::-webkit-scrollbar {
+        width: 15px;
+    }
+    
+     ::-webkit-scrollbar-track {
+        background: #ddd;
+    }
+    
+     ::-webkit-scrollbar-thumb {
+        border-radius: 20px;
+        background: hsl(205, 50%, 57%);
+    }
+    
+    .cover {
+        background-size: cover;
+    }
+    
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #red {
+        height: var(--largura-da-div);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow-y: hidden;
+        padding-right: 3%;
+    }
+    
+    #red img {
+        height: var(--largura-da-div);
+        width: auto;
+    }
+    
+    .texto1 {
+        font-size: 20px;
+        color: black;
+        margin: 10px 40px 10px 40px;
+        text-align: justify;
+    }
+    
+    .example-friends-coll {
+        margin-top: 20px;
+        padding: 20px;
+        size: 12px;
+        justify-content: center;
+        align-items: center;
+        overflow-y: hidden;
+    }
